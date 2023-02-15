@@ -1,5 +1,3 @@
-const { default: axios } = require("axios");
-
 const newStories = 'https://hacker-news.firebaseio.com/v0/newstories.json';
 
 const story = 'https://hacker-news.firebaseio.com/v0/item/';
