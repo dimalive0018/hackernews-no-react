@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #133337;
+    width: inherit;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+.title {
+    color: salmon;
+    font-family: math;
+    font-size: xx-large;
+}
+
+.subtitle {
+    color: oldlace;
+    font-family: system-ui;
+    font-size: small;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    margin: 2vh;
+}
+
+#container {
+    border: solid;
+    border-color: oldlace;
+    margin: 1vh;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    background-color: #133337;
+}
+
+#title {
+    font-family: math;
+    font-size: x-large;
+}
+
+#link {
+    text-decoration: none;
+    color: salmon;
+}
+
+#link:hover {
+    font-size: xx-large;
+}
+
+#author {
+    color: oldlace;
+    font-family: system-ui;
+    font-size: small;
+}
+
+#date {
+    color: oldlace;
+    font-family: system-ui;
+    font-size: small;
+}
+
+.buttonContainer {
+    margin: 2vh;
+    display: flex;
+    justify-content: center;
+}
+
+#button {
+    font-family: system-ui;
+    font-size: large;
+    font-weight: bold;
+    color: oldlace;
+    background-color: salmon;
+    box-shadow: rgb(0 0 0 / 17%) 0px -23px 25px 0px inset, rgb(0 0 0 / 15%) 0px -36px 30px 0px inset, rgb(0 0 0 / 10%) 0px -79px 40px 0px inset, rgb(0 0 0 / 6%) 0px 2px 1px, rgb(0 0 0 / 9%) 0px 4px 2px, rgb(0 0 0 / 9%) 0px 8px 4px, rgb(0 0 0 / 9%) 0px 16px 8px, rgb(0 0 0 / 9%) 0px 32px 16px;
+}
+
+#button:hover {
+    color: transparent;
+}
+
+#button:active {
+    scale: .7;
+    color: transparent;
+}
